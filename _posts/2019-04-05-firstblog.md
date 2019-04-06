@@ -6,3 +6,5 @@ categories: jekyll update
 author: ren
 ---
 Hi this is my first test blog. I have already make it to the website" ThinkSpid.github.io"
+check this sexy girl to test the fig features
+![a sexy girl](/assets/girl.jpg)
