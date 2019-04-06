@@ -1,11 +1,14 @@
 ---
 layout: default
+title: Home
 ---
-
-<ul>
-{% for post in site.posts %}
-    <li>
-		<h2><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></h2>
-	</li>
-{% endfor %}
-</ul>
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
+    <h1>{{ "Hello World!" | downcase }}</h1>
+  </body>
+</html>
