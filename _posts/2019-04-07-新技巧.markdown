@@ -50,4 +50,4 @@ alias blg="cd ~/Your_Blog_Path && git add . ; git commit -m 'update the files' ;
 
 添加为 alias 短命令：
 
-alias nuts="git add . ; git commit -m 'update the files' ; git push"
+alias pstcurrent="git add . ; git commit -m 'update the files' ; git push"
