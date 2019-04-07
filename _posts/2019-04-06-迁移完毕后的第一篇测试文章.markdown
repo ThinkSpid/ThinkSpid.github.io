@@ -1,0 +1,11 @@
+---
+title: 迁移完毕后的第一篇测试文章
+layout: post
+---
+先来测试下 这个 sublime的插件
+再来测试下 markdown语句
+比如
+#加号
+1. 标题
+图片
+![sexy girl](/assets/img/girl.jpg)   
