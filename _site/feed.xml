@@ -1,6 +1,56 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-04-07T00:47:41-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ThinkSpid</title><subtitle>反省自己，正视自己，不再逃避.</subtitle><entry><title type="html">性格决定命运</title><link href="http://localhost:4000/%E6%80%A7%E6%A0%BC%E5%86%B3%E5%AE%9A%E5%91%BD%E8%BF%90/" rel="alternate" type="text/html" title="性格决定命运" /><published>2019-04-06T00:00:00-04:00</published><updated>2019-04-06T00:00:00-04:00</updated><id>http://localhost:4000/%E6%80%A7%E6%A0%BC%E5%86%B3%E5%AE%9A%E5%91%BD%E8%BF%90</id><content type="html" xml:base="http://localhost:4000/%E6%80%A7%E6%A0%BC%E5%86%B3%E5%AE%9A%E5%91%BD%E8%BF%90/">&lt;p&gt;这句话是真的真理。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-04-07T01:35:09-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ThinkSpid</title><subtitle>反省自己，正视自己，不再逃避.</subtitle><entry><title type="html">新技巧</title><link href="http://localhost:4000/%E6%96%B0%E6%8A%80%E5%B7%A7/" rel="alternate" type="text/html" title="新技巧" /><published>2019-04-07T00:00:00-04:00</published><updated>2019-04-07T00:00:00-04:00</updated><id>http://localhost:4000/%E6%96%B0%E6%8A%80%E5%B7%A7</id><content type="html" xml:base="http://localhost:4000/%E6%96%B0%E6%8A%80%E5%B7%A7/">&lt;p&gt;使用方法
+1、新建或打开 ~/.bashrc
+vim ~/.bashrc&lt;/p&gt;
 
-&lt;p&gt;我真的需要好好想想这个道理。&lt;/p&gt;</content><author><name></name></author><category term="反思" /><summary type="html">这句话是真的真理。</summary></entry><entry><title type="html">迁移完毕后的第一篇测试文章</title><link href="http://localhost:4000/%E8%BF%81%E7%A7%BB%E5%AE%8C%E6%AF%95%E5%90%8E%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/" rel="alternate" type="text/html" title="迁移完毕后的第一篇测试文章" /><published>2019-04-06T00:00:00-04:00</published><updated>2019-04-06T00:00:00-04:00</updated><id>http://localhost:4000/%E8%BF%81%E7%A7%BB%E5%AE%8C%E6%AF%95%E5%90%8E%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0</id><content type="html" xml:base="http://localhost:4000/%E8%BF%81%E7%A7%BB%E5%AE%8C%E6%AF%95%E5%90%8E%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/">&lt;p&gt;先来测试下 这个 sublime的插件
+&lt;p&gt;输入以下内容，这是git常用的几个命令。
+alias pull=”git pull”
+alias commit=”git commit”
+alias push=”git push”
+alias branch=”git branch”
+alias check=”git checkout”
+alias st=”git status”&lt;/p&gt;
+
+&lt;p&gt;2、让别名立即生效&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nf&quot;&gt;#container&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+   &lt;span class=&quot;err&quot;&gt;source&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;~/.bashrc&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;3、让别名永久生效，新建或打开 ~/.bash_profile。 （~/.bash_profile 是terminal每次打开时就会运行的？）&lt;/p&gt;
+
+&lt;p&gt;在新的一行写入
+source ~/.bashrc
+如此就可以愉快的使用简短的别名操作啦~
+如果不设进行第三步骤，重启terminal，我们设置好的别名就失效了，需要手动source ~/.bashrc
+扩展
+使用alias也可以设置应用程序的别名，方便在terminal打开应用程序，如
+alias subl=’/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl’
+打开sublime
+subl 
+终端任意目录为博客仓库执行快速更新命令集：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;添加新博文:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;$cd ~/Your_Blog_Path &amp;amp;&amp;amp; git add . ; git commit -m “Add a new post” ; git push ; sleep 0.5s ; open Your_blog_Website 
+添加其为 alias 短命令：&lt;/p&gt;
+&lt;h1 id=&quot;添加新博文&quot;&gt;添加新博文&lt;/h1&gt;
+&lt;p&gt;alias pst=”cd ~/Your_Blog_Path &amp;amp;&amp;amp; git add . ; git commit -m ‘Add a new post’ ; git push ; sleep 0.5s ; open ‘Your_blog_Website’”&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;更新博客设定:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;cd ~/Your_Blog_Path &amp;amp;&amp;amp; git add . ; git commit -m “update the files” ; git push
+添加其为 alias 短命令：&lt;/p&gt;
+&lt;h1 id=&quot;更新博客设定&quot;&gt;更新博客设定&lt;/h1&gt;
+&lt;p&gt;alias blg=”cd ~/Your_Blog_Path &amp;amp;&amp;amp; git add . ; git commit -m ‘update the files’ ; git push”&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;在任意仓库内执行快速更新命令集：&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;添加为 alias 短命令：&lt;/p&gt;
+
+&lt;p&gt;alias nuts=”git add . ; git commit -m ‘update the files’ ; git push”&lt;/p&gt;</content><author><name></name></author><summary type="html">使用方法 1、新建或打开 ~/.bashrc vim ~/.bashrc</summary></entry><entry><title type="html">测试日期插入</title><link href="http://localhost:4000/%E6%B5%8B%E8%AF%95%E6%97%A5%E6%9C%9F%E6%8F%92%E5%85%A5/" rel="alternate" type="text/html" title="测试日期插入" /><published>2019-04-07T00:00:00-04:00</published><updated>2019-04-07T00:00:00-04:00</updated><id>http://localhost:4000/%E6%B5%8B%E8%AF%95%E6%97%A5%E6%9C%9F%E6%8F%92%E5%85%A5</id><content type="html" xml:base="http://localhost:4000/%E6%B5%8B%E8%AF%95%E6%97%A5%E6%9C%9F%E6%8F%92%E5%85%A5/"></content><author><name></name></author><category term="反思" /><category term="日记" /><summary type="html"></summary></entry><entry><title type="html">恐惧是什么</title><link href="http://localhost:4000/%E6%81%90%E6%83%A7%E6%98%AF%E4%BB%80%E4%B9%88/" rel="alternate" type="text/html" title="恐惧是什么" /><published>2019-04-06T21:06:20-04:00</published><updated>2019-04-06T21:06:20-04:00</updated><id>http://localhost:4000/%E6%81%90%E6%83%A7%E6%98%AF%E4%BB%80%E4%B9%88</id><content type="html" xml:base="http://localhost:4000/%E6%81%90%E6%83%A7%E6%98%AF%E4%BB%80%E4%B9%88/"></content><author><name></name></author><category term="反思" /><category term="日记" /><summary type="html"></summary></entry><entry><title type="html">迁移完毕后的第一篇测试文章</title><link href="http://localhost:4000/%E8%BF%81%E7%A7%BB%E5%AE%8C%E6%AF%95%E5%90%8E%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/" rel="alternate" type="text/html" title="迁移完毕后的第一篇测试文章" /><published>2019-04-06T00:00:00-04:00</published><updated>2019-04-06T00:00:00-04:00</updated><id>http://localhost:4000/%E8%BF%81%E7%A7%BB%E5%AE%8C%E6%AF%95%E5%90%8E%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0</id><content type="html" xml:base="http://localhost:4000/%E8%BF%81%E7%A7%BB%E5%AE%8C%E6%AF%95%E5%90%8E%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/">&lt;p&gt;先来测试下 这个 sublime的插件
 再来测试下 markdown语句
 比如
 #加号&lt;/p&gt;
@@ -8,7 +58,9 @@
   &lt;li&gt;标题
 图片
 &lt;img src=&quot;/assets/img/girl.jpg&quot; alt=&quot;sexy girl&quot; /&gt;&lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><summary type="html">先来测试下 这个 sublime的插件 再来测试下 markdown语句 比如 #加号 标题 图片</summary></entry><entry><title type="html">Moon Jekyll Theme</title><link href="http://localhost:4000/moon-theme/" rel="alternate" type="text/html" title="Moon Jekyll Theme" /><published>2016-04-06T00:00:00-04:00</published><updated>2016-04-06T00:00:00-04:00</updated><id>http://localhost:4000/moon-theme</id><content type="html" xml:base="http://localhost:4000/moon-theme/">&lt;p&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png&quot; alt=&quot;Moon Homepage&quot; /&gt;&lt;/p&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">先来测试下 这个 sublime的插件 再来测试下 markdown语句 比如 #加号 标题 图片</summary></entry><entry><title type="html">性格决定命运</title><link href="http://localhost:4000/%E6%80%A7%E6%A0%BC%E5%86%B3%E5%AE%9A%E5%91%BD%E8%BF%90/" rel="alternate" type="text/html" title="性格决定命运" /><published>2019-04-06T00:00:00-04:00</published><updated>2019-04-06T00:00:00-04:00</updated><id>http://localhost:4000/%E6%80%A7%E6%A0%BC%E5%86%B3%E5%AE%9A%E5%91%BD%E8%BF%90</id><content type="html" xml:base="http://localhost:4000/%E6%80%A7%E6%A0%BC%E5%86%B3%E5%AE%9A%E5%91%BD%E8%BF%90/">&lt;p&gt;这句话是真的真理。&lt;/p&gt;
+
+&lt;p&gt;我真的需要好好想想这个道理。&lt;/p&gt;</content><author><name></name></author><category term="反思" /><summary type="html">这句话是真的真理。</summary></entry><entry><title type="html">Moon Jekyll Theme</title><link href="http://localhost:4000/moon-theme/" rel="alternate" type="text/html" title="Moon Jekyll Theme" /><published>2016-04-06T00:00:00-04:00</published><updated>2016-04-06T00:00:00-04:00</updated><id>http://localhost:4000/moon-theme</id><content type="html" xml:base="http://localhost:4000/moon-theme/">&lt;p&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png&quot; alt=&quot;Moon Homepage&quot; /&gt;&lt;/p&gt;
 
 &lt;center&gt;&lt;b&gt;Moon&lt;/b&gt; is a minimal, one column jekyll theme.&lt;/center&gt;
 
@@ -156,7 +208,13 @@ feaure: http://example.com/some-image.png
 
 &lt;h2 id=&quot;license&quot;&gt;License&lt;/h2&gt;
 
-&lt;p&gt;This theme is free and open source software, distributed under the MIT License. So feel free to use this Jekyll theme on your site without linking back to me or including a disclaimer.&lt;/p&gt;</content><author><name></name></author><category term="sample post" /><summary type="html">Minimal, one column Jekyll theme for your blog.</summary></entry><entry><title type="html">Markdown Syntax</title><link href="http://localhost:4000/markdown-syntax/" rel="alternate" type="text/html" title="Markdown Syntax" /><published>2016-03-15T00:00:00-04:00</published><updated>2016-03-15T00:00:00-04:00</updated><id>http://localhost:4000/markdown-syntax</id><content type="html" xml:base="http://localhost:4000/markdown-syntax/">&lt;h2 id=&quot;html-elements&quot;&gt;HTML Elements&lt;/h2&gt;
+&lt;p&gt;This theme is free and open source software, distributed under the MIT License. So feel free to use this Jekyll theme on your site without linking back to me or including a disclaimer.&lt;/p&gt;</content><author><name></name></author><category term="sample post" /><summary type="html">Minimal, one column Jekyll theme for your blog.</summary></entry><entry><title type="html">A Post with a Video</title><link href="http://localhost:4000/video-post/" rel="alternate" type="text/html" title="A Post with a Video" /><published>2016-03-15T00:00:00-04:00</published><updated>2016-03-15T00:00:00-04:00</updated><id>http://localhost:4000/video-post</id><content type="html" xml:base="http://localhost:4000/video-post/">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/SU3kYxJmWuQ&quot; frameborder=&quot;0&quot;&gt; &lt;/iframe&gt;
+
+&lt;p&gt;Video embeds are responsive and scale with the width of the main content block with the help of &lt;a href=&quot;http://fitvidsjs.com/&quot;&gt;FitVids&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Not sure if this only effects Kramdown or if it’s an issue with Markdown in general. But adding YouTube video embeds causes errors when building your Jekyll site. To fix add a space between the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;iframe&amp;gt;&lt;/code&gt; tags and remove &lt;code class=&quot;highlighter-rouge&quot;&gt;allowfullscreen&lt;/code&gt;. Example below:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;iframe&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;width=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;560&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;height=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;315&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;//www.youtube.com/embed/SU3kYxJmWuQ&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;frameborder=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;0&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;/iframe&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name></name></author><category term="sample post" /><category term="video" /><summary type="html">Custom written post descriptions are the way to go... if you're not lazy.</summary></entry><entry><title type="html">Markdown Syntax</title><link href="http://localhost:4000/markdown-syntax/" rel="alternate" type="text/html" title="Markdown Syntax" /><published>2016-03-15T00:00:00-04:00</published><updated>2016-03-15T00:00:00-04:00</updated><id>http://localhost:4000/markdown-syntax</id><content type="html" xml:base="http://localhost:4000/markdown-syntax/">&lt;h2 id=&quot;html-elements&quot;&gt;HTML Elements&lt;/h2&gt;
 
 &lt;p&gt;Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.&lt;/p&gt;
 
@@ -284,13 +342,7 @@ feaure: http://example.com/some-image.png
 
 &lt;h2 id=&quot;notices&quot;&gt;Notices&lt;/h2&gt;
 
-&lt;p class=&quot;notice&quot;&gt;&lt;strong&gt;Watch out!&lt;/strong&gt; You can also add notices by appending &lt;code class=&quot;highlighter-rouge&quot;&gt;{: .notice}&lt;/code&gt; to a paragraph.&lt;/p&gt;</content><author><name></name></author><category term="markdown" /><category term="syntax" /><category term="sample post" /><summary type="html">Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more.</summary></entry><entry><title type="html">A Post with a Video</title><link href="http://localhost:4000/video-post/" rel="alternate" type="text/html" title="A Post with a Video" /><published>2016-03-15T00:00:00-04:00</published><updated>2016-03-15T00:00:00-04:00</updated><id>http://localhost:4000/video-post</id><content type="html" xml:base="http://localhost:4000/video-post/">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/SU3kYxJmWuQ&quot; frameborder=&quot;0&quot;&gt; &lt;/iframe&gt;
-
-&lt;p&gt;Video embeds are responsive and scale with the width of the main content block with the help of &lt;a href=&quot;http://fitvidsjs.com/&quot;&gt;FitVids&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Not sure if this only effects Kramdown or if it’s an issue with Markdown in general. But adding YouTube video embeds causes errors when building your Jekyll site. To fix add a space between the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;iframe&amp;gt;&lt;/code&gt; tags and remove &lt;code class=&quot;highlighter-rouge&quot;&gt;allowfullscreen&lt;/code&gt;. Example below:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;iframe&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;width=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;560&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;height=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;315&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;//www.youtube.com/embed/SU3kYxJmWuQ&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;frameborder=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;0&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;/iframe&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name></name></author><category term="sample post" /><category term="video" /><summary type="html">Custom written post descriptions are the way to go... if you're not lazy.</summary></entry><entry><title type="html">MathJax Example</title><link href="http://localhost:4000/mathjax-example/" rel="alternate" type="text/html" title="MathJax Example" /><published>2015-08-10T00:00:00-04:00</published><updated>2015-08-10T00:00:00-04:00</updated><id>http://localhost:4000/mathjax-example</id><content type="html" xml:base="http://localhost:4000/mathjax-example/">&lt;p&gt;&lt;a href=&quot;http://www.mathjax.org/&quot;&gt;MathJax&lt;/a&gt; is a simple way of including Tex/LaTex/MathML based mathematics in HTML webpages. To get up and running you need to include the MathJax script in the header of your github pages page, and then write some maths. For LaTex, there are two delimiters you need to know about, one for block or displayed mathematics &lt;code class=&quot;highlighter-rouge&quot;&gt;\[ ... \]&lt;/code&gt;, and the other for inline mathematics &lt;code class=&quot;highlighter-rouge&quot;&gt;\( ... \)&lt;/code&gt;.&lt;/p&gt;
+&lt;p class=&quot;notice&quot;&gt;&lt;strong&gt;Watch out!&lt;/strong&gt; You can also add notices by appending &lt;code class=&quot;highlighter-rouge&quot;&gt;{: .notice}&lt;/code&gt; to a paragraph.&lt;/p&gt;</content><author><name></name></author><category term="markdown" /><category term="syntax" /><category term="sample post" /><summary type="html">Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more.</summary></entry><entry><title type="html">MathJax Example</title><link href="http://localhost:4000/mathjax-example/" rel="alternate" type="text/html" title="MathJax Example" /><published>2015-08-10T00:00:00-04:00</published><updated>2015-08-10T00:00:00-04:00</updated><id>http://localhost:4000/mathjax-example</id><content type="html" xml:base="http://localhost:4000/mathjax-example/">&lt;p&gt;&lt;a href=&quot;http://www.mathjax.org/&quot;&gt;MathJax&lt;/a&gt; is a simple way of including Tex/LaTex/MathML based mathematics in HTML webpages. To get up and running you need to include the MathJax script in the header of your github pages page, and then write some maths. For LaTex, there are two delimiters you need to know about, one for block or displayed mathematics &lt;code class=&quot;highlighter-rouge&quot;&gt;\[ ... \]&lt;/code&gt;, and the other for inline mathematics &lt;code class=&quot;highlighter-rouge&quot;&gt;\( ... \)&lt;/code&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;usage&quot;&gt;Usage&lt;/h2&gt;
 
@@ -418,96 +470,14 @@ mathjax: true
 
 &lt;p&gt;An example of a Gist embed below.&lt;/p&gt;
 
-&lt;p&gt;true&lt;script src=&quot;https://gist.github.com/mmistakes/6589546.js&quot;&gt; &lt;/script&gt;&lt;/p&gt;
+&lt;noscript&gt;&lt;pre&gt;404: Not Found
+&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/mmistakes/6589546.js&quot;&gt; &lt;/script&gt;
+
 &lt;div class=&quot;footnotes&quot;&gt;
   &lt;ol&gt;
     &lt;li id=&quot;fn:1&quot;&gt;
       &lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Syntax_highlighting&quot;&gt;http://en.wikipedia.org/wiki/Syntax_highlighting&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name></name></author><category term="sample post" /><category term="code" /><category term="syntax" /><summary type="html">Demo post displaying the various ways of highlighting code in Markdown.</summary></entry><entry><title type="html">A Post with Images</title><link href="http://localhost:4000/sample-post-images/" rel="alternate" type="text/html" title="A Post with Images" /><published>2013-05-22T00:00:00-04:00</published><updated>2013-05-22T00:00:00-04:00</updated><id>http://localhost:4000/sample-post-images</id><content type="html" xml:base="http://localhost:4000/sample-post-images/">&lt;p&gt;Here are some examples of what a post with images might look like. If you want to display two or three images next to each other responsively use &lt;code class=&quot;highlighter-rouge&quot;&gt;figure&lt;/code&gt; with the appropriate &lt;code class=&quot;highlighter-rouge&quot;&gt;class&lt;/code&gt;. Each instance of &lt;code class=&quot;highlighter-rouge&quot;&gt;figure&lt;/code&gt; is auto-numbered and displayed in the caption.&lt;/p&gt;
-
-&lt;h3 id=&quot;figures-for-images-or-video&quot;&gt;Figures (for images or video)&lt;/h3&gt;
-
-&lt;h4 id=&quot;one-up&quot;&gt;One Up&lt;/h4&gt;
-
-&lt;figure&gt;
-	&lt;a href=&quot;http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_b.jpg&quot;&gt;&lt;img src=&quot;http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_c.jpg&quot; /&gt;&lt;/a&gt;
-	&lt;figcaption&gt;&lt;a href=&quot;http://www.flickr.com/photos/80901381@N04/7758832526/&quot; title=&quot;Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr&quot;&gt;Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr&lt;/a&gt;.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.&lt;/p&gt;
-
-&lt;h4 id=&quot;two-up&quot;&gt;Two Up&lt;/h4&gt;
-
-&lt;p&gt;Apply the &lt;code class=&quot;highlighter-rouge&quot;&gt;half&lt;/code&gt; class like so to display two images side by side that share the same caption.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;figure&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;half&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/images/image-filename-1-large.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/images/image-filename-1.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/images/image-filename-2-large.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/images/image-filename-2.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;figcaption&amp;gt;&lt;/span&gt;Caption describing these two images.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figcaption&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figure&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;And you’ll get something that looks like this:&lt;/p&gt;
-
-&lt;figure class=&quot;half&quot;&gt;
-	&lt;a href=&quot;http://placehold.it/1200x600.JPG&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;http://placehold.it/1200x600.jpeg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; /&gt;&lt;/a&gt;
-	&lt;figcaption&gt;Two images.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h4 id=&quot;three-up&quot;&gt;Three Up&lt;/h4&gt;
-
-&lt;p&gt;Apply the &lt;code class=&quot;highlighter-rouge&quot;&gt;third&lt;/code&gt; class like so to display three images side by side that share the same caption.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;figure&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;third&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/images/image-filename-1.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/images/image-filename-2.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/images/image-filename-3.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;figcaption&amp;gt;&lt;/span&gt;Caption describing these three images.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figcaption&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figure&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;And you’ll get something that looks like this:&lt;/p&gt;
-
-&lt;figure class=&quot;third&quot;&gt;
-	&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; /&gt;
-	&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; /&gt;
-	&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; /&gt;
-	&lt;figcaption&gt;Three images.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h3 id=&quot;alternative-way&quot;&gt;Alternative way&lt;/h3&gt;
-
-&lt;p&gt;Another way to achieve the same result is to include &lt;code class=&quot;highlighter-rouge&quot;&gt;gallery&lt;/code&gt; Liquid template. In this case you
-don’t have to write any HTML tags – just copy a small block of code, adjust the parameters (see below)
-and fill the block with any number of links to images. You can mix relative and external links.&lt;/p&gt;
-
-&lt;p&gt;Here is the block you might want to use:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;capture&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;images&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
-	http://vignette2.wikia.nocookie.net/naruto/images/9/97/Hinata.png
-	http://vignette4.wikia.nocookie.net/naruto/images/7/79/Hinata_Part_II.png
-	http://vignette1.wikia.nocookie.net/naruto/images/1/15/J%C5%ABho_S%C5%8Dshiken.png
-&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;endcapture&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;gallery&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;images&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;images&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;caption&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Test images&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;cols&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Parameters:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;caption&lt;/code&gt;: Sets the caption under the gallery (see &lt;code class=&quot;highlighter-rouge&quot;&gt;figcaption&lt;/code&gt; HTML tag above);&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cols&lt;/code&gt;: Sets the number of columns of the gallery.
-Available values: [1..3].&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;It will look something like this:&lt;/p&gt;
-
-&lt;figure class=&quot;third&quot;&gt;
-    
-    &lt;a href=&quot;http://vignette2.wikia.nocookie.net/naruto/images/9/97/Hinata.png&quot;&gt;&lt;img src=&quot;http://vignette2.wikia.nocookie.net/naruto/images/9/97/Hinata.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-    
-    &lt;a href=&quot;http://vignette4.wikia.nocookie.net/naruto/images/7/79/Hinata_Part_II.png&quot;&gt;&lt;img src=&quot;http://vignette4.wikia.nocookie.net/naruto/images/7/79/Hinata_Part_II.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-    
-    &lt;a href=&quot;http://vignette1.wikia.nocookie.net/naruto/images/1/15/J%C5%ABho_S%C5%8Dshiken.png&quot;&gt;&lt;img src=&quot;http://vignette1.wikia.nocookie.net/naruto/images/1/15/J%C5%ABho_S%C5%8Dshiken.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-    
-    &lt;figcaption&gt;Test images&lt;/figcaption&gt;
-&lt;/figure&gt;</content><author><name></name></author><category term="sample post" /><category term="images" /><summary type="html">Examples and code for displaying images in posts.</summary></entry></feed>
+&lt;/div&gt;</content><author><name></name></author><category term="sample post" /><category term="code" /><category term="syntax" /><summary type="html">Demo post displaying the various ways of highlighting code in Markdown.</summary></entry></feed>

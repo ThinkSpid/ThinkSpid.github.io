@@ -1,0 +1,53 @@
+---
+title: 新技巧
+layout: post
+---
+使用方法
+1、新建或打开 ~/.bashrc
+vim ~/.bashrc
+
+输入以下内容，这是git常用的几个命令。
+alias pull="git pull"
+alias commit="git commit"
+alias push="git push"
+alias branch="git branch"
+alias check="git checkout"
+alias st="git status"
+
+2、让别名立即生效
+{% highlight css %}
+#container {
+   source ~/.bashrc
+}
+{% endhighlight %}
+
+
+3、让别名永久生效，新建或打开 ~/.bash_profile。 （~/.bash_profile 是terminal每次打开时就会运行的？）
+
+在新的一行写入
+source ~/.bashrc
+如此就可以愉快的使用简短的别名操作啦~
+如果不设进行第三步骤，重启terminal，我们设置好的别名就失效了，需要手动source ~/.bashrc
+扩展
+使用alias也可以设置应用程序的别名，方便在terminal打开应用程序，如
+alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
+打开sublime
+subl 
+终端任意目录为博客仓库执行快速更新命令集：
+- 添加新博文:
+
+$cd ~/Your_Blog_Path && git add . ; git commit -m "Add a new post" ; git push ; sleep 0.5s ; open Your_blog_Website 
+添加其为 alias 短命令：
+# 添加新博文
+alias pst="cd ~/Your_Blog_Path && git add . ; git commit -m 'Add a new post' ; git push ; sleep 0.5s ; open 'Your_blog_Website'" 
+- 更新博客设定:
+
+cd ~/Your_Blog_Path && git add . ; git commit -m "update the files" ; git push
+添加其为 alias 短命令：
+# 更新博客设定
+alias blg="cd ~/Your_Blog_Path && git add . ; git commit -m 'update the files' ; git push" 
+- 在任意仓库内执行快速更新命令集：
+
+添加为 alias 短命令：
+
+alias nuts="git add . ; git commit -m 'update the files' ; git push"
