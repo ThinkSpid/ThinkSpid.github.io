@@ -1,0 +1,17 @@
+---
+title: 写日志的流程
+layout: post
+---
+写日志的流程我给总结在这里：
+
+1. 打开sublime 在terminal中键入 `subl` 快捷键，这是先前预定义的快捷方式
+2. 在sublime里使用插件右键new post，输入标题，开始写新日志
+3. 新日志里可以加标签，如日记，这样还可以使用new post from template来新建
+4. 日志写完后，在terminal中输入以下一些代码来推送到网页端
+```
+    cd /Users/binbinren/Documents/GitHub/ThinkSpid.github.io
+    jekyll serve
+    add .
+    git commit -m'new post'
+    git push
+```

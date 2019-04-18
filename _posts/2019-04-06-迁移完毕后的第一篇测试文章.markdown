@@ -8,4 +8,4 @@ layout: post
 #加号
 1. 标题
 图片
-![sexy girl](/assets/img/girl.jpg)   
+  
