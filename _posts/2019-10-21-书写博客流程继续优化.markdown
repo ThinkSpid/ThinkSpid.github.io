@@ -1,0 +1,36 @@
+---
+title: 书写博客流程继续优化
+layout: post
+tag: [反思,日记]
+date: 2019-10-21
+---
+
+# 书写流畅步骤
+
+1. sublime 新建post from template
+2. 输入标题
+3. 在date处右键插入日期
+4. 在typora中打开
+5. typora里进行各种书写
+6. typora里保存
+7. GitHub desktop里填写commit 标题，可以使用当日日期，然后push
+8. 这样就上线了。
+
+# 简化的步骤
+
+1. 不用在terminal里写那些代码了
+
+2. `$jekyll serve` 这条根本不用键入的
+
+   ```bash
+   $jekyll serve
+   ```
+
+3. commit  add push 那些都可以不用在terminal输入了，直接在GitHub desktop 里一键就完成。
+
+# 注意配置的东西
+
+* sublime jekyll 插件要配置_post path
+* sublime jekyll 设置template，放入tag选项，和date：选项
+* sublime typora 插件
+* typora 配置图片复制的目录到_assets/image 文件夹
