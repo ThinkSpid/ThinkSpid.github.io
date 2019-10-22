@@ -1,0 +1,34 @@
+---
+title: brew 使用
+layout: post
+tag: [反思,日记]
+date: 2019-10-22
+---
+
+# Homebrew使用指令简要概览
+
+* 搜东西
+* ```
+  brew search
+  brew cask search
+  ```
+
+* 安装
+* ```
+	brew install
+	brew cask install
+	```
+* 看程序信息
+```
+	brew info 
+```
+* `brew cleanup` 整理
+* `brew cask list` 列出安装清单
+* `brew cask update` 更新
+* `brew cask uninstall ` 卸载软件保留配置信息
+* `brew cask zap` 完全卸载软件
+* `brew outdated` 查找过期软件
+* `brew home 软件名` 前往软件官网
+* `brew cask help`显示所有commands
+* `brew cask reinstall`
+
