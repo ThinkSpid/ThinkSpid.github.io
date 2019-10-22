@@ -1,6 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-10-21T19:32:22-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ThinkSpid</title><subtitle>反省自己，正视自己，不再逃避.</subtitle><entry><title type="html">新制第一天</title><link href="http://localhost:4000/%E6%96%B0%E5%88%B6%E7%AC%AC%E4%B8%80%E5%A4%A9/" rel="alternate" type="text/html" title="新制第一天" /><published>2019-10-21T00:00:00-04:00</published><updated>2019-10-21T00:00:00-04:00</updated><id>http://localhost:4000/%E6%96%B0%E5%88%B6%E7%AC%AC%E4%B8%80%E5%A4%A9</id><content type="html" xml:base="http://localhost:4000/%E6%96%B0%E5%88%B6%E7%AC%AC%E4%B8%80%E5%A4%A9/">&lt;p&gt;新制度的第一天，依旧荒废了上午和下午。sad。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-10-21T22:32:04-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ThinkSpid</title><subtitle>反省自己，正视自己，不再逃避.</subtitle><entry><title type="html">新制第一天</title><link href="http://localhost:4000/%E6%96%B0%E5%88%B6%E7%AC%AC%E4%B8%80%E5%A4%A9/" rel="alternate" type="text/html" title="新制第一天" /><published>2019-10-21T00:00:00-04:00</published><updated>2019-10-21T00:00:00-04:00</updated><id>http://localhost:4000/%E6%96%B0%E5%88%B6%E7%AC%AC%E4%B8%80%E5%A4%A9</id><content type="html" xml:base="http://localhost:4000/%E6%96%B0%E5%88%B6%E7%AC%AC%E4%B8%80%E5%A4%A9/">&lt;h1 id=&quot;新制度运行&quot;&gt;新制度运行&lt;/h1&gt;
 
-&lt;p&gt;抓紧开始学习，看视频，看作业，看往年试卷，书写cheatsheet。&lt;/p&gt;</content><author><name></name></author><category term="反思" /><category term="日记" /><summary type="html">新制度的第一天，依旧荒废了上午和下午。sad。</summary></entry><entry><title type="html">重新开始记录日记</title><link href="http://localhost:4000/%E9%87%8D%E6%96%B0%E5%BC%80%E5%A7%8B%E8%AE%B0%E5%BD%95%E6%97%A5%E8%AE%B0/" rel="alternate" type="text/html" title="重新开始记录日记" /><published>2019-10-20T00:00:00-04:00</published><updated>2019-10-20T00:00:00-04:00</updated><id>http://localhost:4000/%E9%87%8D%E6%96%B0%E5%BC%80%E5%A7%8B%E8%AE%B0%E5%BD%95%E6%97%A5%E8%AE%B0</id><content type="html" xml:base="http://localhost:4000/%E9%87%8D%E6%96%B0%E5%BC%80%E5%A7%8B%E8%AE%B0%E5%BD%95%E6%97%A5%E8%AE%B0/">&lt;h1 id=&quot;认真学习&quot;&gt;认真学习&lt;/h1&gt;
+&lt;p&gt;新制度的第一天，依旧荒废了上午和下午。sad。&lt;/p&gt;
+
+&lt;p&gt;抓紧开始学习，看视频，看作业，看往年试卷，书写cheatsheet。&lt;/p&gt;
+
+&lt;p&gt;今天ECE6258的Project已经开始制作了，尝试了下Pycharm的git功能真的蛮方便的，好使。Colab也学会开始用了，可以减少process time。&lt;/p&gt;
+
+&lt;h1 id=&quot;夜跑开始&quot;&gt;夜跑开始&lt;/h1&gt;
+
+&lt;p&gt;开始运行夜跑，这样让晚上的学习更加精神些，再配合早上的跑步。也建立了新的夜跑course，配合Garmin的run walk run功能还是挺不错的。运动使人精神，不动就是萎靡。所以生命在于运动。gogogo！&lt;/p&gt;
+
+&lt;h1 id=&quot;修改google-日历&quot;&gt;修改Google 日历&lt;/h1&gt;
+
+&lt;p&gt;在Google日历上添加 夜跑和记日记的事项。&lt;/p&gt;</content><author><name></name></author><category term="反思" /><category term="日记" /><summary type="html">新制度运行</summary></entry><entry><title type="html">重新开始记录日记</title><link href="http://localhost:4000/%E9%87%8D%E6%96%B0%E5%BC%80%E5%A7%8B%E8%AE%B0%E5%BD%95%E6%97%A5%E8%AE%B0/" rel="alternate" type="text/html" title="重新开始记录日记" /><published>2019-10-20T00:00:00-04:00</published><updated>2019-10-20T00:00:00-04:00</updated><id>http://localhost:4000/%E9%87%8D%E6%96%B0%E5%BC%80%E5%A7%8B%E8%AE%B0%E5%BD%95%E6%97%A5%E8%AE%B0</id><content type="html" xml:base="http://localhost:4000/%E9%87%8D%E6%96%B0%E5%BC%80%E5%A7%8B%E8%AE%B0%E5%BD%95%E6%97%A5%E8%AE%B0/">&lt;h1 id=&quot;认真学习&quot;&gt;认真学习&lt;/h1&gt;
 
 &lt;p&gt;什么都不要想了，什么都不在意了，我现在只想好好学习，毕业！&lt;/p&gt;
 
