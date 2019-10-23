@@ -3,7 +3,7 @@ title: 新制第二天
 layout: post
 tag: [反思,日记]
 date: 2019-10-22
-feature:../assets/img/01.jpg
+feature: ../assets/img/70164be6048a2379881d0318f7322920_hd.jpg
 ---
 
 记录新制实行的第二天，今天感觉half-half。
