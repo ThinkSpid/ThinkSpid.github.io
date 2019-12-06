@@ -4,4 +4,8 @@ layout: post
 tag: [反思,日记]
 date: 2019-12-06
 ---
-之前我以为写完直接用GitHub push就完事了，后来我发现只是这样做的发布的post就相当于源码，那些markdown语法就都没有了。所以还是要在command line里运行这句`jekyll b`这样就可以generate site
+之前我以为写完直接用GitHub push就完事了，后来我发现只是这样做的发布的post就相当于源码，那些markdown语法就都没有了。所以还是要在command line里运行这句`jekyll b`这样就可以generate site。
+
+### 存疑
+
+似乎不太需要，我刚才没有运行那句但是加了空格，markdown语法仍然正确显示。

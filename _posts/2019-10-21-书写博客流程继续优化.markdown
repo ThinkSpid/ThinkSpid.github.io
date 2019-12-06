@@ -13,7 +13,7 @@ date: 2019-10-21
 4. 在typora中打开
 5. typora里进行各种书写
 6. typora里保存
-7. 在command line里用 `jekyll b` 来生成site
+7. 在command line里用 `jekyll b` 来生成site 似乎不太需要
 8. GitHub desktop里填写commit 标题，可以使用当日日期，然后push
 9. 这样就上线了。
 
