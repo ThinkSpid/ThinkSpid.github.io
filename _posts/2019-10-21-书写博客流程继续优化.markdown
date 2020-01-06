@@ -5,7 +5,7 @@ tag: [反思,日记]
 date: 2019-10-21
 ---
 
-# 书写流畅步骤
+### 书写流畅步骤
 
 1. sublime 新建post from template
 2. 输入标题
@@ -17,7 +17,7 @@ date: 2019-10-21
 8. GitHub desktop里填写commit 标题，可以使用当日日期，然后push
 9. 这样就上线了。
 
-# 简化的步骤
+### 简化的步骤
 
 1. 不用在terminal里写那些代码了
 
@@ -29,7 +29,7 @@ date: 2019-10-21
 
 3. commit  add push 那些都可以不用在terminal输入了，直接在GitHub desktop 里一键就完成。
 
-# 注意配置的东西
+### 注意配置的东西
 
 * sublime jekyll 插件要配置_post path
 * sublime jekyll 设置template，放入tag选项，和date：选项
