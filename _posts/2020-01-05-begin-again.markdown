@@ -42,6 +42,8 @@ feature: ../assets/img/begin_again.png
 
 说道场景对比不得不说的是Rocky这个片子，在费城Rocky Road 和 Rocky Statue 俨然成为了新地标和新景点。我们是圣诞节那天去的，台阶上都是模仿Rocky动作拍照的游客，雕塑旁都是排队等着合影的人群。很难想象这里的“原主人”费城艺术博物馆其实今天是关门的。
 
+![rocky_road](../assets/img/post/rocky_road-8327737.png)
+
 ![rocky_mine](../assets/img/post/rocky_mine.jpg)
 
 ![rocky_statue](../assets/img/post/rocky_statue.jpg)
